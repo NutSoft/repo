@@ -2,6 +2,10 @@ BeforeAll {
     Import-Module $PSCommandPath.Replace('.Tests.ps1','.psm1') -Force
 }
 
+AfterAll {
+    Remove-Module ($PSCommandPath.Replace('.Tests.ps1','') | Split-PAth -Leaf) -Force
+}
+
 Describe "BuildIfChanged" {
     Context "When there are Changes" {
         BeforeAll {
