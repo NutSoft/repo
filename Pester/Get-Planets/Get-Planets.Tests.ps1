@@ -1,18 +1,5 @@
 BeforeAll {
-    function Get-Planet ([string]$Name = '*') {
-        $planets = @(
-            @{ Name = 'Mercury' }
-            @{ Name = 'Venus'   }
-            @{ Name = 'Earth'   }
-            @{ Name = 'Mars'    }
-            @{ Name = 'Jupiter' }
-            @{ Name = 'Saturn'  }
-            @{ Name = 'Uranus'  }
-            @{ Name = 'Neptune' }
-        ) | ForEach-Object { [PSCustomObject] $_ }
-
-        $planets | Where-Object { $_.Name -like $Name }
-    }
+    . $PSCommandPath.Replace('.Tests.ps1','.ps1')
 }
 
 Describe 'Get-Planet' {
@@ -25,7 +12,7 @@ Describe 'Get-Planet' {
         $allPlanets = Get-Planet
         $allPlanets[2].Name | Should -Be 'Earth'
     }
-    
+
     It 'Pluto is not part of our Solar System' {
         $allPlanets = Get-Planet
         $plutos = $allPlanets | Where-Object Name -EQ 'Pluto'
