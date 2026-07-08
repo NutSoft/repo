@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE report PUBLIC "-//JACOCO//DTD Report 1.1//EN" "report.dtd"[]>
+<report name="Pester (07/08/2026 10:03:47)">
+  <sessioninfo id="this" start="1783505027298" dump="1783505027840" />
+  <package name="Pester/Get-Planets">
+    <class name="Pester/Get-Planets/Get-Planets" sourcefilename="Get-Planets/Get-Planets.ps1">
+      <method name="Get-Planet" desc="()" line="2">
+        <counter type="INSTRUCTION" missed="0" covered="22" />
+        <counter type="LINE" missed="0" covered="11" />
+        <counter type="METHOD" missed="0" covered="1" />
+      </method>
+      <counter type="INSTRUCTION" missed="0" covered="22" />
+      <counter type="LINE" missed="0" covered="11" />
+      <counter type="METHOD" missed="0" covered="1" />
+      <counter type="CLASS" missed="0" covered="1" />
+    </class>
+    <sourcefile name="Get-Planets/Get-Planets.ps1">
+      <line nr="2" mi="0" ci="1" mb="0" cb="0" />
+      <line nr="3" mi="0" ci="2" mb="0" cb="0" />
+      <line nr="4" mi="0" ci="2" mb="0" cb="0" />
+      <line nr="5" mi="0" ci="2" mb="0" cb="0" />
+      <line nr="6" mi="0" ci="2" mb="0" cb="0" />
+      <line nr="7" mi="0" ci="2" mb="0" cb="0" />
+      <line nr="8" mi="0" ci="2" mb="0" cb="0" />
+      <line nr="9" mi="0" ci="2" mb="0" cb="0" />
+      <line nr="10" mi="0" ci="2" mb="0" cb="0" />
+      <line nr="11" mi="0" ci="2" mb="0" cb="0" />
+      <line nr="13" mi="0" ci="3" mb="0" cb="0" />
+      <counter type="INSTRUCTION" missed="0" covered="22" />
+      <counter type="LINE" missed="0" covered="11" />
+      <counter type="METHOD" missed="0" covered="1" />
+      <counter type="CLASS" missed="0" covered="1" />
+    </sourcefile>
+    <counter type="INSTRUCTION" missed="0" covered="22" />
+    <counter type="LINE" missed="0" covered="11" />
+    <counter type="METHOD" missed="0" covered="1" />
+    <counter type="CLASS" missed="0" covered="1" />
+  </package>
+  <package name="Pester/Modules">
+    <class name="Pester/Modules/MyModule" sourcefilename="Modules/MyModule.psm1">
+      <method name="BuildIfChanged" desc="()" line="2">
+        <counter type="INSTRUCTION" missed="0" covered="5" />
+        <counter type="LINE" missed="0" covered="4" />
+        <counter type="METHOD" missed="0" covered="1" />
+      </method>
+      <method name="Build" desc="()" line="9">
+        <counter type="INSTRUCTION" missed="0" covered="1" />
+        <counter type="LINE" missed="0" covered="1" />
+        <counter type="METHOD" missed="0" covered="1" />
+      </method>
+      <method name="Get-Version" desc="()" line="16">
+        <counter type="INSTRUCTION" missed="1" covered="0" />
+        <counter type="LINE" missed="1" covered="0" />
+        <counter type="METHOD" missed="1" covered="0" />
+      </method>
+      <method name="Get-NextVersion" desc="()" line="17">
+        <counter type="INSTRUCTION" missed="1" covered="0" />
+        <counter type="LINE" missed="1" covered="0" />
+        <counter type="METHOD" missed="1" covered="0" />
+      </method>
+      <method name="&lt;script&gt;" desc="()" line="19">
+        <counter type="INSTRUCTION" missed="0" covered="1" />
+        <counter type="LINE" missed="0" covered="1" />
+        <counter type="METHOD" missed="0" covered="1" />
+      </method>
+      <counter type="INSTRUCTION" missed="2" covered="7" />
+      <counter type="LINE" missed="2" covered="6" />
+      <counter type="METHOD" missed="2" covered="3" />
+      <counter type="CLASS" missed="0" covered="1" />
+    </class>
+    <sourcefile name="Modules/MyModule.psm1">
+      <line nr="2" mi="0" ci="1" mb="0" cb="0" />
+      <line nr="3" mi="0" ci="1" mb="0" cb="0" />
+      <line nr="4" mi="0" ci="2" mb="0" cb="0" />
+      <line nr="5" mi="0" ci="1" mb="0" cb="0" />
+      <line nr="9" mi="0" ci="1" mb="0" cb="0" />
+      <line nr="16" mi="1" ci="0" mb="0" cb="0" />
+      <line nr="17" mi="1" ci="0" mb="0" cb="0" />
+      <line nr="19" mi="0" ci="1" mb="0" cb="0" />
+      <counter type="INSTRUCTION" missed="2" covered="7" />
+      <counter type="LINE" missed="2" covered="6" />
+      <counter type="METHOD" missed="2" covered="3" />
+      <counter type="CLASS" missed="0" covered="1" />
+    </sourcefile>
+    <counter type="INSTRUCTION" missed="2" covered="7" />
+    <counter type="LINE" missed="2" covered="6" />
+    <counter type="METHOD" missed="2" covered="3" />
+    <counter type="CLASS" missed="0" covered="1" />
+  </package>
+  <counter type="INSTRUCTION" missed="2" covered="29" />
+  <counter type="LINE" missed="2" covered="17" />
+  <counter type="METHOD" missed="2" covered="4" />
+  <counter type="CLASS" missed="0" covered="2" />
+</report>
