@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE report PUBLIC "-//JACOCO//DTD Report 1.1//EN" "report.dtd"[]>
-<report name="Pester (07/08/2026 10:03:47)">
-  <sessioninfo id="this" start="1783505027298" dump="1783505027840" />
+<report name="Pester (07/08/2026 14:30:59)">
+  <sessioninfo id="this" start="1783521059035" dump="1783521059555" />
+  <package name="Pester/CodeCoverage">
+    <class name="Pester/CodeCoverage/CoverageTests" sourcefilename="CodeCoverage/CoverageTests.ps1">
+      <method name="FunctionOne" desc="()" line="3">
+        <counter type="INSTRUCTION" missed="1" covered="2" />
+        <counter type="LINE" missed="1" covered="2" />
+        <counter type="METHOD" missed="0" covered="1" />
+      </method>
+      <method name="FunctionTwo" desc="()" line="15">
+        <counter type="INSTRUCTION" missed="1" covered="1" />
+        <counter type="LINE" missed="1" covered="1" />
+        <counter type="METHOD" missed="0" covered="1" />
+      </method>
+      <method name="FunctionExcluded" desc="()" line="22">
+        <counter type="INSTRUCTION" missed="1" covered="0" />
+        <counter type="LINE" missed="1" covered="0" />
+        <counter type="METHOD" missed="1" covered="0" />
+      </method>
+      <counter type="INSTRUCTION" missed="3" covered="3" />
+      <counter type="LINE" missed="3" covered="3" />
+      <counter type="METHOD" missed="1" covered="2" />
+      <counter type="CLASS" missed="0" covered="1" />
+    </class>
+    <sourcefile name="CodeCoverage/CoverageTests.ps1">
+      <line nr="3" mi="0" ci="1" mb="0" cb="0" />
+      <line nr="5" mi="1" ci="0" mb="0" cb="0" />
+      <line nr="9" mi="0" ci="1" mb="0" cb="0" />
+      <line nr="15" mi="0" ci="1" mb="0" cb="0" />
+      <line nr="16" mi="1" ci="0" mb="0" cb="0" />
+      <line nr="22" mi="1" ci="0" mb="0" cb="0" />
+      <counter type="INSTRUCTION" missed="3" covered="3" />
+      <counter type="LINE" missed="3" covered="3" />
+      <counter type="METHOD" missed="1" covered="2" />
+      <counter type="CLASS" missed="0" covered="1" />
+    </sourcefile>
+    <counter type="INSTRUCTION" missed="3" covered="3" />
+    <counter type="LINE" missed="3" covered="3" />
+    <counter type="METHOD" missed="1" covered="2" />
+    <counter type="CLASS" missed="0" covered="1" />
+  </package>
   <package name="Pester/Get-Planets">
     <class name="Pester/Get-Planets/Get-Planets" sourcefilename="Get-Planets/Get-Planets.ps1">
       <method name="Get-Planet" desc="()" line="2">
@@ -87,8 +126,8 @@
     <counter type="METHOD" missed="2" covered="3" />
     <counter type="CLASS" missed="0" covered="1" />
   </package>
-  <counter type="INSTRUCTION" missed="2" covered="29" />
-  <counter type="LINE" missed="2" covered="17" />
-  <counter type="METHOD" missed="2" covered="4" />
-  <counter type="CLASS" missed="0" covered="2" />
+  <counter type="INSTRUCTION" missed="5" covered="32" />
+  <counter type="LINE" missed="5" covered="20" />
+  <counter type="METHOD" missed="3" covered="6" />
+  <counter type="CLASS" missed="0" covered="3" />
 </report>
